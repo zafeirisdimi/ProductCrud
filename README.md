@@ -2,6 +2,20 @@
 Simple Angular Application Crud 
 
 ## Table of Contents
+- [ProductCrud](#productcrud)
+  - [Table of Contents](#table-of-contents)
+  - [Brief](#brief)
+  - [Fake Rest API](#fake-rest-api)
+  - [Routing](#routing)
+  - [Models](#models)
+  - [Services](#services)
+    - [ProductService](#productservice)
+    - [Methods of service](#methods-of-service)
+  - [Components](#components)
+    - [Add Product](#add-product)
+    - [Edit Product](#edit-product)
+    - [Products List](#products-list)
+  - [Technologies](#technologies)
 
 ## Brief
 
@@ -13,7 +27,6 @@ following attributes: "name" and "type". The application should communicate with
 to retrieve and update data.</p>
 </details>
 <details><summary><h5>Requirements</h5></summary>
-
 <p>
 <ul>
     <li>Angular 14+</li>
@@ -95,14 +108,17 @@ to retrieve and update data.</p>
 ### Add Product 
 
 ### Edit Product
+
 ### Products List
 
-### Technologies 
+## Technologies 
 
-- Visual Studio Code
+- HTML/CSS
+- Typescript
 - Angular 15
 - Angular Routing
 - Reactive Forms (ngForms)
 - Bootstrap 5 (UI)
-- json-server ()
-- 
+- json-server
+- Visual Studio Code
+- Postman

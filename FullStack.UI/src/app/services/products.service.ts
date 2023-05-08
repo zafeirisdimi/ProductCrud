@@ -11,7 +11,7 @@ export class ProductsService {
   baseApiUrl: string = "http://localhost:3000";
   constructor(private http: HttpClient) { }
 
-  
+
   // products/ GET
   getAllProducts() : Observable<Product[]>{
     return this.http.get<Product[]>(this.baseApiUrl+ '/products')
@@ -25,7 +25,6 @@ export class ProductsService {
 
   // products/  POST
   addProduct(addProductRequest: Product): Observable<Product>{
-    addProductRequest.id = '00000'
     return this.http.post<Product>(this.baseApiUrl+ '/products', addProductRequest);
   }
 

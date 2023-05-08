@@ -9,7 +9,7 @@ import { ProductsService } from 'src/app/services/products.service';
   styleUrls: ['./edit-product.component.css']
 })
 export class EditProductComponent implements OnInit{
-  
+
   //properties
   productDetails : Product =  {
     id: '',
@@ -23,8 +23,10 @@ export class EditProductComponent implements OnInit{
 
   //constructor
   constructor(private route: ActivatedRoute, private productService:ProductsService, private router:Router){
-
   }
+
+  //methods
+  //on initialization of component, we take id from Route.paramMap and use id to retrieve the product with productSercive.
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(
@@ -37,7 +39,7 @@ export class EditProductComponent implements OnInit{
           // call Api
           this.productService.getProductById(id).subscribe(
             {
-            next: (response) => 
+            next: (response) =>
             {
               console.log("getProductById",response)
               this.productDetails = response;

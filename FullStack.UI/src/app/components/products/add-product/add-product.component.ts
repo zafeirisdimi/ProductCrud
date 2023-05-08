@@ -21,29 +21,31 @@ export class AddProductComponent implements OnInit{
     wholesalePrice: 0,
     discount: 0
   };
+  IsAdded:boolean = false;
 
-  
-
-
+  // constructor
   constructor(private productsService: ProductsService,private router:Router){
 
   }
 
+  //methods
   ngOnInit(): void {
-    
   }
 
+  // add Product calling the productService(data from form) and redirect to products view
   addProduct(){
     console.log(this.addProductRequest);
     this.productsService.addProduct(this.addProductRequest)
-    .subscribe({
+    .subscribe(
+    {
       next: (product) =>{
         console.log(product)
+        this.IsAdded = true;
         this.router.navigate(['products'])
-        
       }
-    });
-    
+    }
+    );
+
   }
 
 }
