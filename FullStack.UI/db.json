@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": "462026",
+      "code": "PO015156",
+      "description": "ROLTISA PR.CAP 5MG/CAP BT x30 CAPS (Σε Blister PVC/PE/PVDC/Alu)",
+      "barcode": "2803275804018",
+      "retailPrice": "106.19",
+      "wholesalePrice": 110,
+      "discount": "0"
+    },
+    {
+      "id": "462025",
+      "code": "PO015155",
+      "description": "ROLTISA PR.CAP 3MG/CAP BT x30 CAPS (Σε Blister PVC/PE/PVDC/Alu)",
+      "barcode": "2803275803011",
+      "retailPrice": "68.15",
+      "wholesalePrice": "49.45",
+      "discount": 14
+    },
+    {
+      "id": "462024",
+      "code": "PO015154",
+      "description": "ROLTISA PR.CAP 1MG/CAP BT x30 CAPS (Σε Blister PVC/PE/PVDC/Alu)",
+      "barcode": "2803275802014",
+      "retailPrice": "26.6",
+      "wholesalePrice": "19.3",
+      "discount": "0"
+    },
+    {
+      "id": "462023",
+      "code": "PO015153",
+      "description": "ROLTISA PR.CAP 0.5MG/CAP BT x30 CAPS (Σε Blister PVC/PE/PVDC/Alu)",
+      "barcode": "2803275801017",
+      "retailPrice": "11.06",
+      "wholesalePrice": "8.02",
+      "discount": "0"
+    },
+    {
+      "id": "462022",
+      "code": "PO015152",
+      "description": "PSOKADRON® INJ.SU.PRO 75MG/PF.SYR BT X 1 PF.SYR + 2 NEEDLES",
+      "barcode": "2803241703017",
+      "retailPrice": "141.76",
+      "wholesalePrice": "115.29",
+      "discount": "0"
+    },
+    {
+      "id": "462021",
+      "code": "PO015151",
+      "description": "PSOKADRON® INJ.SU.PRO 50MG/PF.SYR BT X 1 PF.SYR + 2 NEEDLES",
+      "barcode": "2803241702010",
+      "retailPrice": "97.76",
+      "wholesalePrice": "76.86",
+      "discount": "0"
+    },
+    {
+      "id": "462020",
+      "code": "PO015150",
+      "description": "PSOKADRON® INJ.SU.PRO 25MG/PF.SYR BT X 1 PF.SYR + 2 NEEDLES",
+      "barcode": "2803241701013",
+      "retailPrice": "52.96",
+      "wholesalePrice": "38.43",
+      "discount": "0"
+    },
+    {
+      "id": "462019",
+      "code": "PO015149",
+      "description": "PSOKADRON® INJ.SU.PRO 150MG/PF.SYR BT X 1 PF.SYR + 2 NEEDLES",
+      "barcode": "2803241705011",
+      "retailPrice": "249.34",
+      "wholesalePrice": "210.03",
+      "discount": "0"
+    },
+    {
+      "id": "462018",
+      "code": "PO015148",
+      "description": "PSOKADRON® INJ.SU.PRO 150MG.PF.SYR (BT X 1 PF.SYR X 150MG + 2 NEEDLES) + (BT X 1 PF.SYR X 100MG + 2",
+      "barcode": "2803241706018",
+      "retailPrice": "249.34",
+      "wholesalePrice": "210.03",
+      "discount": "0"
+    },
+    {
+      "id": "tRz4NYS",
+      "code": "513383",
+      "description": "ccccccccccccccccccccccccc",
+      "barcode": 1,
+      "retailPrice": 1,
+      "wholesalePrice": 22,
+      "discount": 10
+    },
+    {
+      "id": "00000",
+      "code": "513383",
+      "description": "ccccccccccccccccccccccccc",
+      "barcode": 10,
+      "retailPrice": 14,
+      "wholesalePrice": 21,
+      "discount": 4
+    }
+  ]
+}
