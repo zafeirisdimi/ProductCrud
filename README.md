@@ -3,9 +3,64 @@ Simple Angular Application Crud
 
 ## Table of Contents
 
+## Brief
+
+<details><summary><h5>Overview</h5></summary>
+<p>In this assignment, you will be creating a simple CRUD (Create, Read, Update, Delete) application
+using Angular 14 and implement a dummy RESTful API. The application should allow users to
+perform CRUD operations on a simple resource, such as a list of entities. Each entity should have the
+following attributes: "name" and "type". The application should communicate with the RESTful API
+to retrieve and update data.</p>
+</details>
+<details><summary><h5>Requirements</h5></summary>
+
+<p>
+<ul>
+    <li>Angular 14+</li>
+    <li>TypeScript</li>
+    <li>HTML/CSS</li>
+    <li>RESTful API</li>
+    <li>JSON-Server</li>
+</ul> </p>
+</details>
+<details><summary><h5>Task</h5></summary>
+<p></p>
+</details>
+<details><summary><h5>Deliverables</h5></summary>
+<p>
+<ul>
+<li>The source code of the application</li>
+<li>The configuration files for the dummy RESTful API</li>
+</ul>
+</p>
+</details>
+<details><summary><h5>Evaluation Criteria</h5></summary>
+<p>
+<ul>
+<li>Adherence to the requirements</li>
+<li>Code quality</li>
+<li>Proper usage of Angular 14</li>
+<li>Proper usage of TypeScript</li>
+<li>Proper usage of HTML/CSS</li>
+<li>Proper usage of RESTful API</li>
+<li>Proper usage of Reactive Form</li>
+<li>basic validation</li>
+
+</ul>
+</p>
+</details>
+<details><summary>Submission</summary>
+<p></p>
+</details>
 
 ## Fake Rest API
-- We use the n
+
+- We use the npm library [json-server](https://www.npmjs.com/package/@types/json-server) to create a Fake REST API and establish the CRUD functions of our entity
+
+- Installation: `npm i json-server` in app folder terminal
+- After installation, create a `db.json` file with dummy data.
+- Running: `json-server --watch db.json`
+
 ## Routing
 
 
