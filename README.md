@@ -2,20 +2,21 @@
 Simple Angular Application Crud 
 
 ## Table of Contents
-- [ProductCrud](#productcrud)
-  - [Table of Contents](#table-of-contents)
-  - [Brief](#brief)
-  - [Fake Rest API](#fake-rest-api)
-  - [Routing](#routing)
-  - [Models](#models)
-  - [Services](#services)
-    - [ProductService](#productservice)
-    - [Methods of service](#methods-of-service)
-  - [Components](#components)
-    - [Add Product](#add-product)
-    - [Edit Product](#edit-product)
-    - [Products List](#products-list)
-  - [Technologies](#technologies)
+
+* [Brief](#brief)
+  * [Fake Rest API](#fake-rest-api)
+  * [Routing](#routing)
+  * [Models](#models)
+    + [Product](#product)
+  * [Services](#services)
+    + [ProductService](#productservice)
+    + [Methods of service](#methods-of-service)
+  * [Components](#components)
+    + [Add Product](#add-product)
+    + [Add Product v2](#add-product-v2)
+    + [Edit Product](#edit-product)
+    + [Products List](#products-list)
+  * [Technologies](#technologies)
 
 ## Brief
 
@@ -74,13 +75,19 @@ to retrieve and update data.</p>
 - After installation, create a `db.json` file with dummy data.
 - Running: `json-server --watch db.json`
 
-## Routing
-
-
-
 ## Models
 
-- Product
+### Product 
+
+| Type | Property | 
+| --- | --- |
+| string | id |
+| string | code |
+| string | description |
+| number | barcode |
+| number | retailPrice |
+| number | wholesalePrice |
+| number | discount |
 
 ## Services
 
@@ -97,19 +104,13 @@ to retrieve and update data.</p>
 | `updateProduct(id:string,updateProductRequest:Product)` | **PUT**  | Updates the product with the specific id with the new data {updateProductRequest}
 | `deleteProduct(id:string)` | **DELETE**  | Delete the specific product with the specific id from our database
 
-- **Note:** 
-
-
-
-
 
 ## Components
 
-### Add Product 
-
-### Edit Product
-
-### Products List
+- Add Product 
+- Add Product v2
+- Edit Product
+- Products List
 
 ## Technologies 
 
